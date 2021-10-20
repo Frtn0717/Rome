@@ -1,6 +1,6 @@
 import { categoriesDrop, titlesDrop } from './variables.js';
 
-const drawHtmlLayout = (data) => {
+export const drawHtmlLayout = (data) => {
   if (Array.isArray(data)) {
     data.map((item) => {
       const newOption = document.createElement('option');
@@ -28,5 +28,3 @@ const drawHtmlLayout = (data) => {
     });
   }
 };
-
-export default drawHtmlLayout;
