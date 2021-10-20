@@ -1,3 +1,4 @@
+import './styles/main.css';
 import drawHtmlLayout from './modules/draw-layout.js';
 import { fetchCategories } from './modules/fetch.js';
 import { categoriesDrop } from './modules/variables.js';
